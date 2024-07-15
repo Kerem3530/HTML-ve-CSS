@@ -1,0 +1,45 @@
+@keyframes renkDegistir{
+    0%{
+        color: #000000;
+        background-color: #ffffff;
+    }
+
+    50%{
+        color: #ffffff;
+        background-color: #000000;
+    }
+
+    100%{
+        color: #000000;
+        background-color: #ffffff;
+    }
+}
+
+@keyframes renkDegistir2{
+    0%{
+        color: #ffffff;
+        background-color: #000;
+    }
+
+    50%{
+        color: #000;
+        background-color: #fff;
+    }
+
+    100%{
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+body{
+    background-color: rgb(164, 255, 164);
+    animation: renkDegistir2 ease-in-out infinite 10s;
+}
+
+h1{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    animation: renkDegistir ease-in-out infinite 10s;
+}
