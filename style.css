@@ -32,7 +32,7 @@
     }
 }
 
-body{
+body, a{                                                
     background-color: rgb(164, 255, 164);
     animation: renkDegistir2 ease-in-out infinite 10s;
 }
